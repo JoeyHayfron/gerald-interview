@@ -1,22 +1,33 @@
 package com.example.gerald_interview
 
 import android.annotation.SuppressLint
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
+import androidx.multidex.MultiDex
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.gerald_interview.databinding.ActivityMainBinding
 import com.google.android.exoplayer2.MediaItem
+import com.google.android.exoplayer2.MediaItem.AdsConfiguration
 import com.google.android.exoplayer2.SimpleExoPlayer
-import kotlinx.android.synthetic.main.activity_main.*
+import com.google.android.exoplayer2.ext.ima.ImaAdsLoader
+import com.google.android.exoplayer2.source.DefaultMediaSourceFactory
+import com.google.android.exoplayer2.source.MediaSourceFactory
+import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
+import com.google.android.exoplayer2.util.Util
+
 
 private const val TAG = "MAIN_ACTIVITY"
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), InnerAdapter.OnShowListener {
+
+    private lateinit var binding: ActivityMainBinding
     private var layoutManager: LinearLayoutManager? = null
     private var player: SimpleExoPlayer? = null
+    private var adsLoader: ImaAdsLoader? = null
     private var playWhenReady = true
     private var currentWindow = 0
     private var playbackPosition: Long = 0
@@ -26,13 +37,16 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        MultiDex.install(this)
+        adsLoader = ImaAdsLoader.Builder(this).build()
         viewModel = ViewModelProviders.of(this).get(ShowsViewModel::class.java)
         layoutManager =LinearLayoutManager(this, LinearLayout.VERTICAL, false)
-        outerRecycler.layoutManager = layoutManager
+        binding.outerRecycler.layoutManager = layoutManager
         viewModel.getShows().observe(this, {
             outerAdapter = OuterAdapter(it)
-            outerRecycler.adapter = outerAdapter
+            binding.outerRecycler.adapter = outerAdapter
         })
     }
 
@@ -66,10 +80,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initializePlayer() {
-        player = SimpleExoPlayer.Builder(this).build()
-        exoPlayer.player = player
+        val dataSourceFactory =
+            DefaultDataSourceFactory(this, Util.getUserAgent(this, getString(R.string.app_name)))
+        val mediaSourceFactory: MediaSourceFactory = DefaultMediaSourceFactory(dataSourceFactory)
+            .setAdsLoaderProvider { unusedAdTagUri: AdsConfiguration? -> adsLoader }
+            .setAdViewProvider(binding.exoPlayer)
+        player = SimpleExoPlayer.Builder(this).setMediaSourceFactory(mediaSourceFactory).build()
+        binding.exoPlayer.player = player
+        adsLoader?.setPlayer(player)
+        val adTagUri: Uri = Uri.parse(getString(R.string.ad_tag_url))
+        val contentUri: Uri = Uri.parse(getString(R.string.content_url))
         val mediaItem =
-            MediaItem.fromUri("http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/A%20Sunsail%20Flotilla%20Vacation.mp4")
+            MediaItem.Builder()
+                .setUri(contentUri)
+                .setAdTagUri(adTagUri).build()
         player?.setMediaItem(mediaItem)
         player?.playWhenReady = playWhenReady
         player?.seekTo(currentWindow, playbackPosition)
@@ -77,7 +101,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun hideSystemUI() {
-        exoPlayer.systemUiVisibility = (View.SYSTEM_UI_FLAG_LOW_PROFILE
+        binding.exoPlayer.systemUiVisibility = (View.SYSTEM_UI_FLAG_LOW_PROFILE
                 or View.SYSTEM_UI_FLAG_FULLSCREEN
                 or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                 or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
@@ -93,5 +117,9 @@ class MainActivity : AppCompatActivity() {
             player?.release()
             player = null
         }
+    }
+
+    override fun onShowClicked(show: Show) {
+
     }
 }

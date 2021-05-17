@@ -5,5 +5,7 @@
     android:layout_height="190dp"
     android:id="@+id/movieItem"
     android:src="@drawable/bb2"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
     android:scaleType="fitXY"
     android:contentDescription="Movie Thumbnail" />
