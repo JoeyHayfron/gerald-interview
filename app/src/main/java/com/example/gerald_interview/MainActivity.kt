@@ -6,6 +6,7 @@ import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.LinearLayout
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
 import androidx.multidex.MultiDex
@@ -22,7 +23,7 @@ import com.google.android.exoplayer2.util.Util
 
 
 private const val TAG = "MAIN_ACTIVITY"
-class MainActivity : AppCompatActivity(), InnerAdapter.OnShowListener {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private var layoutManager: LinearLayoutManager? = null
@@ -33,6 +34,12 @@ class MainActivity : AppCompatActivity(), InnerAdapter.OnShowListener {
     private var playbackPosition: Long = 0
     private lateinit var viewModel: ShowsViewModel
     private var outerAdapter: OuterAdapter? = null
+
+    private val onShowClickedListener: (Show) -> Unit = { it ->
+        viewModel.setVideoURL(it)
+        player?.stop()
+        initializePlayer(Uri.parse("https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator="))
+    }
 
     @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +52,7 @@ class MainActivity : AppCompatActivity(), InnerAdapter.OnShowListener {
         layoutManager =LinearLayoutManager(this, LinearLayout.VERTICAL, false)
         binding.outerRecycler.layoutManager = layoutManager
         viewModel.getShows().observe(this, {
-            outerAdapter = OuterAdapter(it)
+            outerAdapter = OuterAdapter(it, onShowClickedListener)
             binding.outerRecycler.adapter = outerAdapter
         })
     }
@@ -79,21 +86,27 @@ class MainActivity : AppCompatActivity(), InnerAdapter.OnShowListener {
         }
     }
 
-    private fun initializePlayer() {
+    private fun initializePlayer(adTag: Uri = Uri.parse("")) {
         val dataSourceFactory =
             DefaultDataSourceFactory(this, Util.getUserAgent(this, getString(R.string.app_name)))
         val mediaSourceFactory: MediaSourceFactory = DefaultMediaSourceFactory(dataSourceFactory)
-            .setAdsLoaderProvider { unusedAdTagUri: AdsConfiguration? -> adsLoader }
+            .setAdsLoaderProvider { adsLoader }
             .setAdViewProvider(binding.exoPlayer)
         player = SimpleExoPlayer.Builder(this).setMediaSourceFactory(mediaSourceFactory).build()
         binding.exoPlayer.player = player
         adsLoader?.setPlayer(player)
-        val adTagUri: Uri = Uri.parse(getString(R.string.ad_tag_url))
-        val contentUri: Uri = Uri.parse(getString(R.string.content_url))
-        val mediaItem =
-            MediaItem.Builder()
+        var contentUri: Uri = Uri.parse("")
+        var mediaItem: MediaItem = MediaItem.Builder()
+            .setUri(Uri.parse(""))
+            .setAdTagUri(Uri.parse("")).build()
+        viewModel.getShowURL().observe(this, {
+            contentUri = Uri.parse(it)
+            mediaItem = MediaItem.Builder()
                 .setUri(contentUri)
-                .setAdTagUri(adTagUri).build()
+                .setAdTagUri(adTag).build()
+        })
+
+
         player?.setMediaItem(mediaItem)
         player?.playWhenReady = playWhenReady
         player?.seekTo(currentWindow, playbackPosition)
@@ -119,7 +132,8 @@ class MainActivity : AppCompatActivity(), InnerAdapter.OnShowListener {
         }
     }
 
-    override fun onShowClicked(show: Show) {
 
-    }
+//    override fun onShowClicked(show: Show) {
+//        viewModel.getShowURL()
+//    }
 }

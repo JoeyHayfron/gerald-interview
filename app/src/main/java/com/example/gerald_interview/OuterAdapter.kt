@@ -1,18 +1,25 @@
 package com.example.gerald_interview
 
 import android.annotation.SuppressLint
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class OuterAdapter(val data: ApiResponse) : RecyclerView.Adapter<OuterAdapter.OuterViewHolder>() {
+class OuterAdapter(val data: ApiResponse, private val showClickListener: (Show) -> Unit) : RecyclerView.Adapter<OuterAdapter.OuterViewHolder>(){
 
     private val viewPool = RecyclerView.RecycledViewPool()
+
+    private val onItemClickListener: (Show) -> Unit = { item ->
+        showClickListener(item)
+    }
+
 
     class OuterViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val recyclerView: RecyclerView = itemView.findViewById(R.id.innerRecyclerView)
@@ -36,12 +43,16 @@ class OuterAdapter(val data: ApiResponse) : RecyclerView.Adapter<OuterAdapter.Ou
 
         holder.recyclerView.apply{
             layoutManager = childManagerLayout
-            adapter = InnerAdapter(items.values.toTypedArray()[position])
+            adapter = InnerAdapter(items.values.toTypedArray()[position], onItemClickListener)
             setRecycledViewPool(viewPool)
         }
     }
 
     override fun getItemCount(): Int {
         return data.groupShows().count()
+    }
+
+    interface onShowListener{
+        fun onShowClicked(show: Show)
     }
 }
