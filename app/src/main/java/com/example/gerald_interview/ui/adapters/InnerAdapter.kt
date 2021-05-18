@@ -1,10 +1,12 @@
-package com.example.gerald_interview
+package com.example.gerald_interview.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.gerald_interview.R
+import com.example.gerald_interview.data.models.Show
 import com.squareup.picasso.Picasso
 
 class InnerAdapter(private val data: List<Show>, private val itemClickListener: (Show) -> Unit) : RecyclerView.Adapter<InnerAdapter.InnerViewHolder>() {

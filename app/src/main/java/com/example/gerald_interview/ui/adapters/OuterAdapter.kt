@@ -1,25 +1,24 @@
-package com.example.gerald_interview
+package com.example.gerald_interview.ui.adapters
 
 import android.annotation.SuppressLint
-import android.util.Log
 import android.view.LayoutInflater
-import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.gerald_interview.R
+import com.example.gerald_interview.data.models.ApiResponse
+import com.example.gerald_interview.data.models.Show
 
-class OuterAdapter(val data: ApiResponse, private val showClickListener: (Show) -> Unit) : RecyclerView.Adapter<OuterAdapter.OuterViewHolder>(){
+class OuterAdapter(val data: Map<String, List<Show>>, private val showClickListener: (Show) -> Unit) : RecyclerView.Adapter<OuterAdapter.OuterViewHolder>(){
 
     private val viewPool = RecyclerView.RecycledViewPool()
 
     private val onItemClickListener: (Show) -> Unit = { item ->
         showClickListener(item)
     }
-
 
     class OuterViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val recyclerView: RecyclerView = itemView.findViewById(R.id.innerRecyclerView)
@@ -33,7 +32,7 @@ class OuterAdapter(val data: ApiResponse, private val showClickListener: (Show) 
 
     @SuppressLint("WrongConstant")
     override fun onBindViewHolder(holder: OuterViewHolder, position: Int) {
-        val items = data.groupShows()
+        val items = data
 
 
         holder.category.text = items.keys.toTypedArray()[position]
@@ -49,10 +48,6 @@ class OuterAdapter(val data: ApiResponse, private val showClickListener: (Show) 
     }
 
     override fun getItemCount(): Int {
-        return data.groupShows().count()
-    }
-
-    interface onShowListener{
-        fun onShowClicked(show: Show)
+        return data.count()
     }
 }

@@ -1,5 +1,6 @@
-package com.example.gerald_interview
+package com.example.gerald_interview.data.network
 
+import com.example.gerald_interview.data.models.ApiResponse
 import retrofit2.Call
 import retrofit2.http.GET
 

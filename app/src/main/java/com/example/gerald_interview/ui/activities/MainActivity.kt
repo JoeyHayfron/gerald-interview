@@ -1,19 +1,20 @@
-package com.example.gerald_interview
+package com.example.gerald_interview.ui.activities
 
 import android.annotation.SuppressLint
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.view.View
 import android.widget.LinearLayout
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
 import androidx.multidex.MultiDex
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.gerald_interview.R
+import com.example.gerald_interview.data.models.Show
 import com.example.gerald_interview.databinding.ActivityMainBinding
+import com.example.gerald_interview.ui.adapters.OuterAdapter
+import com.example.gerald_interview.ui.viewmodels.ShowsViewModel
 import com.google.android.exoplayer2.MediaItem
-import com.google.android.exoplayer2.MediaItem.AdsConfiguration
 import com.google.android.exoplayer2.SimpleExoPlayer
 import com.google.android.exoplayer2.ext.ima.ImaAdsLoader
 import com.google.android.exoplayer2.source.DefaultMediaSourceFactory
@@ -29,16 +30,13 @@ class MainActivity : AppCompatActivity() {
     private var layoutManager: LinearLayoutManager? = null
     private var player: SimpleExoPlayer? = null
     private var adsLoader: ImaAdsLoader? = null
-    private var playWhenReady = true
-    private var currentWindow = 0
-    private var playbackPosition: Long = 0
     private lateinit var viewModel: ShowsViewModel
     private var outerAdapter: OuterAdapter? = null
+    private var adTag: String? = null
 
     private val onShowClickedListener: (Show) -> Unit = { it ->
         viewModel.setVideoURL(it)
-        player?.stop()
-        initializePlayer(Uri.parse("https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator="))
+        initializePlayer(Uri.parse(adTag))
     }
 
     @SuppressLint("WrongConstant")
@@ -52,38 +50,47 @@ class MainActivity : AppCompatActivity() {
         layoutManager =LinearLayoutManager(this, LinearLayout.VERTICAL, false)
         binding.outerRecycler.layoutManager = layoutManager
         viewModel.getShows().observe(this, {
-            outerAdapter = OuterAdapter(it, onShowClickedListener)
+            adTag = it.adtag
+            outerAdapter = OuterAdapter(viewModel.groupShows(it.shows), onShowClickedListener)
             binding.outerRecycler.adapter = outerAdapter
         })
     }
 
     override fun onStart() {
         super.onStart()
-        if (Build.VERSION.SDK_INT >= 24) {
+        if (Build.VERSION.SDK_INT >= 23) {
             initializePlayer()
+            binding.exoPlayer.onResume()
         }
     }
 
     override fun onResume() {
         super.onResume()
-        hideSystemUI()
-        if (Build.VERSION.SDK_INT < 24) {
+        if (Build.VERSION.SDK_INT <= 23 || player == null) {
             initializePlayer()
+            binding.exoPlayer.onResume()
         }
     }
 
     override fun onPause() {
         super.onPause()
-        if (Build.VERSION.SDK_INT < 24) {
+        if (Build.VERSION.SDK_INT <= 23) {
+            binding.exoPlayer.onPause()
             releasePlayer()
         }
     }
 
     override fun onStop() {
         super.onStop()
-        if (Build.VERSION.SDK_INT >= 24) {
+        if (Build.VERSION.SDK_INT > 23) {
+            binding.exoPlayer.onPause()
             releasePlayer()
         }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        adsLoader!!.release()
     }
 
     private fun initializePlayer(adTag: Uri = Uri.parse("")) {
@@ -106,34 +113,15 @@ class MainActivity : AppCompatActivity() {
                 .setAdTagUri(adTag).build()
         })
 
-
         player?.setMediaItem(mediaItem)
-        player?.playWhenReady = playWhenReady
-        player?.seekTo(currentWindow, playbackPosition)
         player?.prepare()
-    }
-
-    private fun hideSystemUI() {
-        binding.exoPlayer.systemUiVisibility = (View.SYSTEM_UI_FLAG_LOW_PROFILE
-                or View.SYSTEM_UI_FLAG_FULLSCREEN
-                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
-                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION)
+        player?.playWhenReady = true
     }
 
     private fun releasePlayer() {
-        if (player != null) {
-            playWhenReady = player!!.playWhenReady
-            playbackPosition = player!!.currentPosition
-            currentWindow = player!!.currentWindowIndex
-            player?.release()
-            player = null
-        }
+        adsLoader?.setPlayer(null)
+        binding.exoPlayer.player = null
+        player!!.release()
+        player = null
     }
-
-
-//    override fun onShowClicked(show: Show) {
-//        viewModel.getShowURL()
-//    }
 }

@@ -1,8 +1,10 @@
-package com.example.gerald_interview
+package com.example.gerald_interview.data.repos
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.example.gerald_interview.data.models.ApiResponse
+import com.example.gerald_interview.data.network.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

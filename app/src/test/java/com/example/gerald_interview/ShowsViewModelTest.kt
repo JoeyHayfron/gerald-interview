@@ -1,5 +1,8 @@
 package com.example.gerald_interview
 
+import com.example.gerald_interview.data.models.ApiResponse
+import com.example.gerald_interview.data.repos.ShowsRepo
+import com.example.gerald_interview.ui.viewmodels.ShowsViewModel
 import junit.framework.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
