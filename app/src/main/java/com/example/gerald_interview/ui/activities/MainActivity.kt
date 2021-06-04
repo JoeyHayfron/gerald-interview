@@ -30,9 +30,10 @@ class MainActivity : AppCompatActivity() {
     private var layoutManager: LinearLayoutManager? = null
     private var player: SimpleExoPlayer? = null
     private var adsLoader: ImaAdsLoader? = null
-    private lateinit var viewModel: ShowsViewModel
     private var outerAdapter: OuterAdapter? = null
     private var adTag: String? = null
+    private lateinit var viewModel: ShowsViewModel
+
 
     private val onShowClickedListener: (Show) -> Unit = { it ->
         viewModel.setVideoURL(it)
@@ -45,8 +46,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         MultiDex.install(this)
-        adsLoader = ImaAdsLoader.Builder(this).build()
         viewModel = ViewModelProviders.of(this).get(ShowsViewModel::class.java)
+        adsLoader = ImaAdsLoader.Builder(this).build()
         layoutManager =LinearLayoutManager(this, LinearLayout.VERTICAL, false)
         binding.outerRecycler.layoutManager = layoutManager
         viewModel.getShows().observe(this, {

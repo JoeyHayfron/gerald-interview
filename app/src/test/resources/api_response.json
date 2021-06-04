@@ -1,0 +1,955 @@
+{
+  "adtag": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=",
+  "shows": [
+    {
+      "id": "0",
+      "category": "Business",
+      "title": "A High Flying Vacation Aboard The Moorings 4801",
+      "description": "Join Sam Light and Alex Fox of Slingshot Kite on a high-flying adventure aboard The Moorings 4800 in the British Virgin Islands.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/A%20High-Flying%20Vacation%20Aboard%20The%20Moorings%204801.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/A%20High-Flying%20Vacation%20Aboard%20The%20Moorings%204801%20TN.png"
+      }
+    },
+    {
+      "id": "1",
+      "category": "Business",
+      "title": "A Sunsail Flotilla Vacation",
+      "description": "A flotilla gives you the freedom to not worry. Discover the world at your own speed. Cruise along in the sunshine and drop anchor for a swim in warm, clear waters. Stroll on the deserted beaches of uninhabited islands. Get into the heart of historic towns, and taste the local cuisine. Meet up with new friends ashore, or spend a quiet evening on deck under the stars. Our flotilla crew will help organise your evening dinners and excursions, or you can adventure alone, exploring with the confidence that we’ll be there if you need us.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/A%20Sunsail%20Flotilla%20Vacation.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/A%20Sunsail%20Flotilla%20Vacation%20TN.png"
+      }
+    },
+    {
+      "id": "2",
+      "category": "Business",
+      "title": "A Sunsail Skippered Vacation",
+      "description": "Sunsail’s skippers are your personal driver and tour guide, full of local information. They are happy to plan out your route or follow your suggestions to create a holiday perfectly tailored for you. They’ll take the helm so you can ‘switch o ’ on deck, or let you take control whenever you’d like to, under their watchful eye. And if you’re not a sailor, they’ll teach you some tips and tricks along the way.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/A%20Sunsail%20Skippered%20Vacation.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/A%20Sunsail%20Skippered%20Vacation%20TN.png"
+      }
+    },
+    {
+      "id": "3",
+      "category": "Business",
+      "title": "Boating Magazine's Electronics Tips",
+      "description": "Electronics experts offer quick tips for making the most of your sonar and chart plotter.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/Boating%20Magazine's%20Electronics%20Tips.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/Boating%20Magazine's%20Electronics%20Tips%20TN.png"
+      }
+    },
+    {
+      "id": "4",
+      "category": "Business",
+      "title": "Boston Whaler - The Unsinkable Legend",
+      "description": "For more than 50 years, Boston Whaler has been building superior quality unsinkable runabouts, cruisers and center console boats. Founded in 1958 and currently headquartered in Edgewater, FL, the company’s unique foam-cored construction process contributes not only unsurpassed flotation, but superior ride characteristics and durability. The current product line ranges from 11- 42 feet and is distributed around the world by a network of exceptional dealers. For more information about The Unsinkable Legend, please visit www.bostonwhaler.com.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/Boston%20Whaler%20-%20The%20Unsinkable%20Legend.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/Boston%20Whaler%20-%20The%20Unsinkable%20Legend%20TN.png"
+      }
+    },
+    {
+      "id": "5",
+      "category": "Business",
+      "title": "Crownline - The Inside Story",
+      "description": "Look under the shiny exterior of a brand new boat and see what it is really made of. Meet the people behind the build and find out why we consider Crownline to be the best boat on the market.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/Crownline%20-%20The%20Inside%20Story.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/Crownline%20-%20The%20Inside%20Story%20TN.png"
+      }
+    },
+    {
+      "id": "6",
+      "category": "Business",
+      "title": "eXploder A Class Catamaran tour",
+      "description": "What’s the newest A class catamaran have for the foiling set? A Class fanatic Bailey White gives us a tour as the 40-boat fleet assembles at the Helly Hansen NOOD Regatta in St. Petersburg.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/eXploder%20A%20Class%20Catamaran%20tour.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/eXploder%20A%20Class%20Catamaran%20tour%20TN.png"
+      }
+    },
+    {
+      "id": "7",
+      "category": "Business",
+      "title": "Four Winns HD 220 and 240",
+      "description": "The HD 220 and 240 from Four Winns are perfect for a plethora of activities, whether swimming, enjoying watersports, or socializing at the marina or sandbar. The detailing is outstanding, and both offer a pleasing combination of performance and class.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/Four%20Winns%20HD%20220%20and%20240.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/Four%20Winns%20HD%20220%20and%20240%20TN.png"
+      }
+    },
+    {
+      "id": "8",
+      "category": "Business",
+      "title": "Glastron GTD 205-200",
+      "description": "The Glastron GTD features a great ride in any reasonable condition which keeps passengers happy. It’s also packed full of amenities that will keep your crew entertained and make maintenance a breeze.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/Glastron%20GTD%20205-200.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/Glastron%20GTD%20205-200%20TN.png"
+      }
+    },
+    {
+      "id": "9",
+      "category": "Business",
+      "title": "Mates by Boston Whaler_ The Jones Family",
+      "description": "A lifetime of Boston Whaler ownership has brought this family closer together.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/Mates%20by%20Boston%20Whaler_%20The%20Jones%20Family.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/Mates%20by%20Boston%20Whaler_%20The%20Jones%20Family%20TN.png"
+      }
+    },
+    {
+      "id": "10",
+      "category": "Business",
+      "title": "North Sails 3Di Technology",
+      "description": "“At the beginning of 3Di we didn't have a product. We had an idea.”Dive into the development story of 3Di technology, and learn how North Sail's new take on sailmaking is changing the game.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/North%20Sails%203Di%20Technology.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/North%20Sails%203Di%20Technology%20TN.png"
+      }
+    },
+    {
+      "id": "11",
+      "category": "Business",
+      "title": "Paul Cayard on The Moorings 4800 Sailing Catamaran",
+      "description": "Paul Cayard is a seven-time sailing world champion, a seven-time America's Cup veteran and two-time Olympian. Watch his trip in the British Virgin Islands on a Moorings 4800 Sailing Catamaran.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/Paul%20Cayard%20on%20The%20Moorings%204800%20Sailing%20Catamaran.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/Paul%20Cayard%20on%20The%20Moorings%204800%20Sailing%20Catamaran%20TN.png"
+      }
+    },
+    {
+      "id": "12",
+      "category": "Business",
+      "title": "The Oyster Yacht 475 and 545 Review",
+      "description": "The Oyster Yacht 475 and 545 Yachting World Review",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/The%20Oyster%20Yacht%20475%20and%20545%20Review.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/The%20Oyster%20Yacht%20475%20and%20545%20Review%20TN.png"
+      }
+    },
+    {
+      "id": "13",
+      "category": "Business",
+      "title": "What you can expect from the BVIs after the hurricanes",
+      "description": "Hear it straight from your favroite sources: Foxy's Tamarind Bar, Soggy Dollar Bar, Cow Wreck Beach, and Pusser's Rum, then plan your own #CaribbeanComeback tour and join them.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/What%20you%20can%20expect%20from%20the%20BVIs%20after%20the%20hurricanes.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Boating/imgs/What%20you%20can%20expect%20from%20the%20BVIs%20after%20the%20hurricanes%20TN.png"
+      }
+    },
+    {
+      "id": "14",
+      "category": "Fishing",
+      "title": "Australia Black Marlin Tag-and-Release Video",
+      "description": "Adib Barsoum sent this video of he and his son, Mark Barsoum, fighting and releasing two black marlin off Australia. The crew hooked four blacks in total in their five days of fishing. Mark tagged and released a 300-pounder at the beginning of the video.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/Australia%20Black%20Marlin%20Tag-and-Release%20Video.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/imgs/Australia%20Black%20Marlin%20Tag-and-Release%20Video%20TN.png"
+      }
+    },
+    {
+      "id": "15",
+      "category": "Fishing",
+      "title": "BC Outdoors Sport Fishing - Imitating Bait",
+      "description": "Mike and Steve show how to have success in a new fishery. They share their tips and techniques of matching and imitating bait found in salmon off the coast of Vancouver Island.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/BC%20Outdoors%20Sport%20Fishing%20-%20Imitating%20Bait.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/imgs/BC%20Outdoors%20Sport%20Fishing%20-%20Imitating%20Bait%20TN.png"
+      }
+    },
+    {
+      "id": "16",
+      "category": "Fishing",
+      "title": "BC Outdoors Sport Fishing - May Salmon Fishing",
+      "description": "The lesser known early Chinook run in Shearwater has Mike and Mike back on the water.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/BC%20Outdoors%20Sport%20Fishing%20-%20May%20Salmon%20Fishing.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/imgs/BC%20Outdoors%20Sport%20Fishing%20-%20May%20Salmon%20Fishing%20TN.png"
+      }
+    },
+    {
+      "id": "17",
+      "category": "Fishing",
+      "title": "Canadian Sportfishing - Ice Fishing for Lake Trout",
+      "description": "Join Italo his guests James Beauprie and John Whyte as they show you how to locate catch trophy lake trout through the ice in deep water.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/Canadian%20Sportfishing%20-%20Ice%20Fishing%20for%20Lake%20Trout.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/imgs/Canadian%20Sportfishing%20-%20Ice%20Fishing%20for%20Lake%20Trout%20TN.png"
+      }
+    },
+    {
+      "id": "18",
+      "category": "Fishing",
+      "title": "Canadian Sportfishing - Walleye Jigging show_ Detroit River",
+      "description": "Join Italo, his wife Barbara, and their guest Pat Pagano as they show you how to use large jigs and fish walleye in the currents of the Detroit River. As a bonus, Italo shows you some of the highlights from the ICHA Handicapable Fishing Derby.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/Canadian%20Sportfishing%20-%20Walleye%20Jigging%20show_%20Detroit%20River.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/imgs/Canadian%20Sportfishing%20-%20Walleye%20Jigging%20show_%20Detroit%20River%20TN.png"
+      }
+    },
+    {
+      "id": "19",
+      "category": "Fishing",
+      "title": "Contender 39 Fisharound",
+      "description": "Unlike some mass production boat builders, we at Contender pride ourselves on keeping your boat building experience personal. Your Contender is made for you. Customize each component of the vessel from hull size and power, to console, tops, and electronics packages. From the offshore canyons of New England to the marlin rich waters off the Bahamas. From the Gulf of Mexico to the Outer Banks of North Carolina to the Florida Keys and beyond... wherever you find successful sportfishermen catching fish, you’ll find Contender Boats. ",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/Contender%2039%20Fisharound.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/imgs/Contender%2039%20Fisharound%20TN.png"
+      }
+    },
+    {
+      "id": "20",
+      "category": "Fishing",
+      "title": "Fishing for Alaska Salmon and Halibut by Sport Fishing Magazine",
+      "description": "Sport Fishing Magazine goes to Alaska to fish for Salmon and Halibut.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/Fishing%20for%20Alaska%20Salmon%20and%20Halibut%20by%20Sport%20Fishing%20Magazine.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/imgs/Fishing%20for%20Alaska%20Salmon%20and%20Halibut%20by%20Sport%20Fishing%20Magazine%20TN.png"
+      }
+    },
+    {
+      "id": "22",
+      "category": "Fishing",
+      "title": "Sportfishing Adventures - Westview Marina",
+      "description": "Chris Burns experiences a Vancouver Island adventure at Westview Marina Lodge in Tahsis, BC. With pro-guide Brendan, the two of them set out to get Chris's first Tyee. Chris takes on a variety of species before running into his biggest fish challenge.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/Sportfishing%20Adventures%20-%20Westview%20Marina.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Fishing/imgs/Sportfishing%20Adventures%20-%20Westview%20Marina%20TN.png"
+      }
+    },
+    {
+      "id": "23",
+      "category": "Flying",
+      "title": "Cessna 182 JT-A",
+      "description": "At AirVenture Cessna took the wraps off a Jet-A-powered Skylane, slated to enter into service next year. Flying Editor-in-Chief Robert Goyer talks with Jeff Umscheid to get the scoop on what the 182 NXT offers in terms of performance.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/Cessna%20182%20JT-A.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/imgs/Cessna%20182%20JT-A%20TN.png"
+      }
+    },
+    {
+      "id": "24",
+      "category": "Flying",
+      "title": "Cessna’s New Midsize Citation Latitude",
+      "description": "The latest in the Cessnas Citation lineup combines a clean-sheet fuselage with a proven wing for a long-legged, comfortable midsize workhorse.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/Cessna%E2%80%99s%20New%20Midsize%20Citation%20Latitude.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/imgs/Cessna%E2%80%99s%20New%20Midsize%20Citation%20Latitude%20TN.png"
+      }
+    },
+    {
+      "id": "25",
+      "category": "Flying",
+      "title": "Flying in a Piper Cub",
+      "description": "Come along for the ride as we take to the skies in this American classic.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/Flying%20in%20a%20Piper%20Cub.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/imgs/Flying%20in%20a%20Piper%20Cub%20TN.png"
+      }
+    },
+    {
+      "id": "26",
+      "category": "Flying",
+      "title": "FLYING Magazine’s Parade of Planes",
+      "description": "Compare the most popular new aircraft and connect with the finance, tax and insurance resources to make the dream of ownership a reality.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/FLYING%20Magazine%E2%80%99s%20Parade%20of%20Planes.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/imgs/FLYING%20Magazine%E2%80%99s%20Parade%20of%20Planes%20TN.png"
+      }
+    },
+    {
+      "id": "27",
+      "category": "Flying",
+      "title": "Manufacturer's Showcase_ Redbird Flight Simulations Desktop Sim",
+      "description": "Don't look for the mouse. Redbird's latest flight sim is a desktop trainer that nicely emulates the Garmin G1000 suite and will easily fit on pilots desks and, Redbird hopes, their budgets, as well.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/Manufacturer's%20Showcase_%20Redbird%20Flight%20Simulations%20Desktop%20Sim.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/imgs/Manufacturer's%20Showcase_%20Redbird%20Flight%20Simulations%20Desktop%20Sim%20TN.png"
+      }
+    },
+    {
+      "id": "28",
+      "category": "Flying",
+      "title": "Manufacturer's Showcase_ Socata TBM 850",
+      "description": "More power, more sophisticated electronics and a higher gross weight combine to make the 850 the best TBM yet. Oh yeah, and 320 knots doesn't hurt either.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/Manufacturer's%20Showcase_%20Socata%20TBM%20850.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/imgs/Manufacturer's%20Showcase_%20Socata%20TBM%20850%20TN.png"
+      }
+    },
+    {
+      "id": "29",
+      "category": "Flying",
+      "title": "Sporty's Flight Training Tips_ Crosswind Landings",
+      "description": "Sporty's Flight Training Tips: Crosswind Landings",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/Sporty's%20Flight%20Training%20Tips_%20Crosswind%20Landings.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Flying/imgs/Sporty's%20Flight%20Training%20Tips_%20Crosswind%20Landings%20TN.png"
+      }
+    },
+    {
+      "id": "30",
+      "category": "Food",
+      "title": "3D Printers Are Here To Change The Way You Cook",
+      "description": "Lobster-filled lobster? Sugar skulls? Welcome to the future of food.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/3D%20Printers%20Are%20Here%20To%20Change%20The%20Way%20You%20Cook.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/3D%20Printers%20Are%20Here%20To%20Change%20The%20Way%20You%20Cook%20TN.png"
+      }
+    },
+    {
+      "id": "31",
+      "category": "Food",
+      "title": "A Night Out in Peckham London's New Food Destination",
+      "description": "A night out in Peckham, London's ultimate food destination, means pho, cocktails, video games, and plenty of delicious pasta.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/A%20Night%20Out%20in%20Peckham_%20London's%20New%20Food%20Destination.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/A%20Night%20Out%20in%20Peckham_%20London's%20New%20Food%20Destination%20TN.png"
+      }
+    },
+    {
+      "id": "32",
+      "category": "Food",
+      "title": "A Taste of Australia in Brooklyn",
+      "description": "Aaron Turner, the chef at Igni restaurant in Geelong, Australia, knows a lot about fire, so we invited him to Brooklyn to grill up a feast that included squab, lobster, and a pig head",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/A%20Taste%20of%20Australia%20in%20Brooklyn.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/A%20Taste%20of%20Australia%20in%20Brooklyn%20TN.png"
+      }
+    },
+    {
+      "id": "33",
+      "category": "Food",
+      "title": "Chef Aaron Turner Talks About Cooking On Open Fire",
+      "description": "Chef Aaron Turner of Restaurant IGNI in Geelong, Australia gives his two cents on cooking meat—and much more—on open fire",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Chef%20Aaron%20Turner%20Talks%20About%20Cooking%20On%20Open%20Fire.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Chef%20Aaron%20Turner%20Talks%20About%20Cooking%20On%20Open%20Fire%20TN.png"
+      }
+    },
+    {
+      "id": "34",
+      "category": "Food",
+      "title": "Cooking Rabbit with Rita Sodi and Nick Anderer",
+      "description": "Two chefs—Nick Anderer of Maialino and Rita Sodi of I Sodi—cook up a beloved Italian meat that's often overlooked in the U.S.: rabbit.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Cooking%20Rabbit%20with%20Rita%20Sodi%20and%20Nick%20Anderer.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Cooking%20Rabbit%20with%20Rita%20Sodi%20and%20Nick%20Anderer%20TN.png"
+      }
+    },
+    {
+      "id": "35",
+      "category": "Food",
+      "title": "Green Posole",
+      "description": "How to make green posole, an Arizona staple.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Green%20Posole.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Green%20Posole%20TN.png"
+      }
+    },
+    {
+      "id": "36",
+      "category": "Food",
+      "title": "How to Make a Cheesy Brussels Sprout Gratin",
+      "description": "This recipe blends roasted brussels sprouts with a silky mornay sauce featuring Gruyère. A panko topping with lemon zest adds crunch and zing.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/How%20to%20Make%20a%20Cheesy%20Brussels%20Sprout%20Gratin.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/How%20to%20Make%20a%20Cheesy%20Brussels%20Sprout%20Gratin%20TN.png"
+      }
+    },
+    {
+      "id": "37",
+      "category": "Food",
+      "title": "How to Peel Tomatoes and Peaches",
+      "description": "SAVEUR kitchen director Kellie Evans shows you an easy way to peel peaches and tomatoes without bruising the soft fruit.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/How%20to%20Peel%20Tomatoes%20and%20Peaches.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/How%20to%20Peel%20Tomatoes%20and%20Peaches%20TN.png"
+      }
+    },
+    {
+      "id": "38",
+      "category": "Food",
+      "title": "How to Raise a Sourdough Starter",
+      "description": "Marie C. of My Life in Sourdough shares tips for making the most of your sourdough starter.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/How%20to%20Raise%20a%20Sourdough%20Starter.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/How%20to%20Raise%20a%20Sourdough%20Starter%20TN.png"
+      }
+    },
+    {
+      "id": "39",
+      "category": "Food",
+      "title": "Madame Vo Teaches Us How to Make the Madame Pho",
+      "description": "Editor Dan Q. Dao learns how to make pho from the pros at Madame Vo in New York City",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Madame%20Vo%20Teaches%20Us%20How%20to%20Make%20the%20Madame%20Pho.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Madame%20Vo%20Teaches%20Us%20How%20to%20Make%20the%20Madame%20Pho%20TN.png"
+      }
+    },
+    {
+      "id": "40",
+      "category": "Food",
+      "title": "Make the World's Best Waffles With Sourdough",
+      "description": "Marie C. of My Life in Sourdough shows how to make the most of a sourdough starter by cooking with it for breakfast.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Make%20the%20World's%20Best%20Waffles%20With%20Sourdough.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Make%20the%20World's%20Best%20Waffles%20With%20Sourdough%20TN.png"
+      }
+    },
+    {
+      "id": "41",
+      "category": "Food",
+      "title": "Making a Giant Croquembouche With Lafayette Bakery",
+      "description": "This massive pastry tower is made of over 400 cream puffs bonded together with crunchy caramel.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Making%20a%20Giant%20Croquembouche%20With%20Lafayette%20Bakery.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Making%20a%20Giant%20Croquembouche%20With%20Lafayette%20Bakery%20TN.png"
+      }
+    },
+    {
+      "id": "42",
+      "category": "Food",
+      "title": "Making Pasta With Rita Sodi and Nick Anderer",
+      "description": "Two chefs—Nick Anderer of Maialino and Rita Sodi of I Sodi—collaborate on making an Italian classic.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Making%20Pasta%20With%20Rita%20Sodi%20and%20Nick%20Anderer.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Making%20Pasta%20With%20Rita%20Sodi%20and%20Nick%20Anderer%20TN.png"
+      }
+    },
+    {
+      "id": "43",
+      "category": "Food",
+      "title": "Pork Chops with Braised Cabbage & Fruit Butter",
+      "description": "This riff on Scottish-style pork and cabbage features a pork chop smoked with whisky barrel chips and apple-cider–braised red cabbage comes from chef Matthew Harder of Highlands NYC Restaurant",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Pork%20Chops%20with%20Braised%20Cabbage%20&%20Fruit%20Butter.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Pork%20Chops%20with%20Braised%20Cabbage%20&%20Fruit%20Butter%20TN.png"
+      }
+    },
+    {
+      "id": "44",
+      "category": "Food",
+      "title": "Pu-Erh_ The World's Most Coveted Tea",
+      "description": "The Helen of Troy of tea gets aged like whiskey, dosed like drugs, and coveted by millionaires. And it only comes from this one mountainous corner of China.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Pu-Erh_%20The%20World's%20Most%20Coveted%20Tea.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Pu-Erh_%20The%20World's%20Most%20Coveted%20Tea%20TN.png"
+      }
+    },
+    {
+      "id": "45",
+      "category": "Food",
+      "title": "Red Posole",
+      "description": "How to make spicy pork and red chile posole.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Red%20Posole.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Red%20Posole%20TN.png"
+      }
+    },
+    {
+      "id": "46",
+      "category": "Food",
+      "title": "Sizzling Sisig",
+      "description": "Leah Cohen of New York City's Pig and Khao shows us how to make sisig, everybody's favorite sizzling Filipino dish. Don't forget to grab an ice-cold bottle of San Miguel beer!",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Sizzling%20Sisig.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Sizzling%20Sisig%20TN.png"
+      }
+    },
+    {
+      "id": "47",
+      "category": "Food",
+      "title": "The Food and Culture of Kerala_ India",
+      "description": "Scenes from the gathering of four million women cooking for their Indian goddess.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/The%20Food%20and%20Culture%20of%20Kerala_%20India.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/The%20Food%20and%20Culture%20of%20Kerala_%20India%20TN.png"
+      }
+    },
+    {
+      "id": "49",
+      "category": "Food",
+      "title": "Wisconsin Pizza Farms",
+      "description": "Small family farms in Wisconsin are firing up some produce heavy pizzas",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/Wisconsin%20Pizza%20Farms.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Food/imgs/Wisconsin%20Pizza%20Farms%20TN.png"
+      }
+    },
+    {
+      "id": "50",
+      "category": "Motorcycles",
+      "title": "2018 Dirt Rider 450 MX Shootout - Honda CRF450R",
+      "description": "Take a look at how the 2018 Honda CRF450R did in the 2018 Dirt Rider 450 Motocross Shootout.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20Honda%20CRF450R.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20Honda%20CRF450R%20TN.png"
+      }
+    },
+    {
+      "id": "51",
+      "category": "Motorcycles",
+      "title": "2018 Dirt Rider 450 MX Shootout - Kawasaki KX450F",
+      "description": "Check out how the 2018 Kawasaki KX450F did in the Dirt Rider 450 Motocross Shootout.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20Kawasaki%20KX450F.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20Kawasaki%20KX450F%20TN.png"
+      }
+    },
+    {
+      "id": "52",
+      "category": "Motorcycles",
+      "title": "2018 Dirt Rider 450 MX Shootout - KTM 450 SX-F",
+      "description": "Check out how the 2018 KTM 450 SX-F did in the Dirt Rider 450 MX shootout.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20KTM%20450%20SX-F.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20KTM%20450%20SX-F%20TN.png"
+      }
+    },
+    {
+      "id": "53",
+      "category": "Motorcycles",
+      "title": "2018 Dirt Rider 450 MX Shootout - Suzuki RM-Z450",
+      "description": "Check out how the 2018 Suzuki RM-Z450 did in the Dirt Rider 450 Motocross shootout.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20Suzuki%20RM-Z450.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20Suzuki%20RM-Z450%20TN.png"
+      }
+    },
+    {
+      "id": "54",
+      "category": "Motorcycles",
+      "title": "2018 Dirt Rider 450 MX Shootout - Yamaha YZ450F",
+      "description": "Check out how the 2018 Yamaha YZ450F did in the Dirt Rider 450 Motocross Shootout.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20Yamaha%20YZ450F.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/2018%20Dirt%20Rider%20450%20MX%20Shootout%20-%20Yamaha%20YZ450F%20TN.png"
+      }
+    },
+    {
+      "id": "55",
+      "category": "Motorcycles",
+      "title": "2018 Ducati Panigale V4 First Ride Video",
+      "description": "Take a few flying laps of the Valencia MotoGP Circuit on Ducati’s latest superbike, the 1,103cc Panigale V4. Is it fast enough to make Zack squeal?",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/2018%20Ducati%20Panigale%20V4%20First%20Ride%20Video.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/2018%20Ducati%20Panigale%20V4%20First%20Ride%20Video%20TN.png"
+      }
+    },
+    {
+      "id": "56",
+      "category": "Motorcycles",
+      "title": "Andrew Huerta's Custom Harley-Davidson Street Bob",
+      "description": "A custom Harley-Davidson Street Bob that is much more than just a motorcycle.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Andrew%20Huerta's%20Custom%20Harley-Davidson%20Street%20Bob.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Andrew%20Huerta's%20Custom%20Harley-Davidson%20Street%20Bob%20TN.png"
+      }
+    },
+    {
+      "id": "57",
+      "category": "Motorcycles",
+      "title": "Baggers Spotlight_ Justin Coleman From FXR Division",
+      "description": "We check in with Justin Coleman of FXR Division and look at their Performance Bagger.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Baggers%20Spotlight_%20Justin%20Coleman%20From%20FXR%20Division.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Baggers%20Spotlight_%20Justin%20Coleman%20From%20FXR%20Division%20TN.png"
+      }
+    },
+    {
+      "id": "58",
+      "category": "Motorcycles",
+      "title": "Baggers Spotlight_ Paul Yaffe of Bagger Nation",
+      "description": "We check in with Paul Yaffe of Bagger Nation and see his latest build for the legendary Rusty Wallace!",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Baggers%20Spotlight_%20Paul%20Yaffe%20of%20Bagger%20Nation.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Baggers%20Spotlight_%20Paul%20Yaffe%20of%20Bagger%20Nation%20TN.png"
+      }
+    },
+    {
+      "id": "59",
+      "category": "Motorcycles",
+      "title": "Behind the Baggers Magazine Redesign",
+      "description": "The crew at Baggers has been extremely busy fine-tuning the newly redesigned magazine, website, and everything else in between. Have a look-see at their latest efforts.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Behind%20the%20Baggers%20Magazine%20Redesign.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Behind%20the%20Baggers%20Magazine%20Redesign%20TN.png"
+      }
+    },
+    {
+      "id": "60",
+      "category": "Motorcycles",
+      "title": "Behind The Scenes Double Feature Shoot With Baggers Magazine",
+      "description": "Road King (Black Bike): Marcos. Street Glide (Blue Bike): Cesar",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Behind%20The%20Scenes%20Double%20Feature%20Shoot%20With%20Baggers%20Magazine.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Behind%20The%20Scenes%20Double%20Feature%20Shoot%20With%20Baggers%20Magazine%20TN.png"
+      }
+    },
+    {
+      "id": "61",
+      "category": "Motorcycles",
+      "title": "Bike Check with Mike Deutsch's Harley-Davidson FXR",
+      "description": "This FXR was transformed from a crashed wadded up mess of a machine into the perfect mix of form ,function and styling.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Bike%20Check%20with%20Mike%20Deutsch's%20Harley-Davidson%20FXR.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Bike%20Check%20with%20Mike%20Deutsch's%20Harley-Davidson%20FXR%20TN.png"
+      }
+    },
+    {
+      "id": "62",
+      "category": "Motorcycles",
+      "title": "Carburetors vs. Electronic Fuel Injection — What’s Better_",
+      "description": "Your motorcycle is either being fed fuel through a carburetor with jets, or via a throttle body with an injector. What happens when these two systems face off? We’ll find out in this video from the MC Garage.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Carburetors%20vs.%20Electronic%20Fuel%20Injection%20%E2%80%94%20What%E2%80%99s%20Better_.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Carburetors%20vs.%20Electronic%20Fuel%20Injection%20%E2%80%94%20What%E2%80%99s%20Better_%20TN.png"
+      }
+    },
+    {
+      "id": "63",
+      "category": "Motorcycles",
+      "title": "Cycle World 50 years",
+      "description": "Cycle World 50 years",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Cycle%20World%2050%20years.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Cycle%20World%2050%20years%20TN.png"
+      }
+    },
+    {
+      "id": "64",
+      "category": "Motorcycles",
+      "title": "Cycle World 2017 Superbike Shootout Part 1_ Track",
+      "description": "Yamaha's class-leading YZF-R1 attempts to fend off the latest crop of superbikes: Aprilia RSV4 RR, Honda CBR1000RR, and Suzuki GSX-R1000. Can it hold on to the crown for one more year?",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Cycle%20World%202017%20Superbike%20Shootout%20Part%201_%20Track.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Cycle%20World%202017%20Superbike%20Shootout%20Part%201_%20Track%20TN.png"
+      }
+    },
+    {
+      "id": "65",
+      "category": "Motorcycles",
+      "title": "Cycle World 2017 Superbike Shootout Part 2_ Street",
+      "description": "Following our 2017 Superbike review on the track, the bikes headed to the street to find out if there's a middle ground between performance and comfort on a mix of highway and canyon roads.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Cycle%20World%202017%20Superbike%20Shootout%20Part%202_%20Street.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Cycle%20World%202017%20Superbike%20Shootout%20Part%202_%20Street%20TN.png"
+      }
+    },
+    {
+      "id": "66",
+      "category": "Motorcycles",
+      "title": "Cycle World’s 2016 Superbike Comparison Test",
+      "description": "Associate Editors Bradley Adams and Sean MacDonald run through the pluses and minuses of each bike participating in Cycle World’s 2016 Superbike test…and pick a winner.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Cycle%20World%E2%80%99s%202016%20Superbike%20Comparison%20Test.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Cycle%20World%E2%80%99s%202016%20Superbike%20Comparison%20Test%20TN.png"
+      }
+    },
+    {
+      "id": "67",
+      "category": "Motorcycles",
+      "title": "First Ride Video - Colin Edwards’ Yamaha TTR125",
+      "description": "What does it feel like to ride (and crash) Colin Edwards’ very own TTR125? Zack Courts finds out.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/First%20Ride%20Video%20-%20Colin%20Edwards%E2%80%99%20Yamaha%20TTR125.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/First%20Ride%20Video%20-%20Colin%20Edwards%E2%80%99%20Yamaha%20TTR125%20TN.png"
+      }
+    },
+    {
+      "id": "68",
+      "category": "Motorcycles",
+      "title": "Harley-Davidson Softail Roundtable Discussion",
+      "description": "We spend the better part of two days testing all eight of Harley-Davidson's new 2018 Softail motorcycles and then sit down to discuss our thoughts.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Harley-Davidson%20Softail%20Roundtable%20Discussion.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Harley-Davidson%20Softail%20Roundtable%20Discussion%20TN.png"
+      }
+    },
+    {
+      "id": "69",
+      "category": "Motorcycles",
+      "title": "Jeffrey Carver Jr. American Flat Track Lone Star Half-Mile Winner Interview",
+      "description": "We sit down at Perris Raceway with the people’s flat-track hero.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/Jeffrey%20Carver%20Jr.%20American%20Flat%20Track%20Lone%20Star%20Half-Mile%20Winner%20Interview.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Motorcycles/imgs/Jeffrey%20Carver%20Jr.%20American%20Flat%20Track%20Lone%20Star%20Half-Mile%20Winner%20Interview%20TN.png"
+      }
+    },
+    {
+      "id": "71",
+      "category": "Outdoors",
+      "title": "Hook Shots_ Landshark",
+      "description": "Surf fishing for sharks is a sport that often flies under the radar.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/Hook%20Shots_%20Landshark.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/Hook%20Shots_%20Landshark%20TN.png"
+      }
+    },
+    {
+      "id": "72",
+      "category": "Outdoors",
+      "title": "Hook Shots_ Pensacola Bull Redfish Blitz",
+      "description": "When giant bull redfish flood Pensacola Bay in November, the topwater action can go from zero to epic in a flash.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/Hook%20Shots_%20Pensacola%20Bull%20Redfish%20Blitz.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/Hook%20Shots_%20Pensacola%20Bull%20Redfish%20Blitz%20TN.png"
+      }
+    },
+    {
+      "id": "73",
+      "category": "Outdoors",
+      "title": "Hook Shots_ Susquehanna Smallie Fly Marathon",
+      "description": "You might get burned during the dog days of summer, but it's worth it for the red-hot fly action with Susquehanna smallmouth bass.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/Hook%20Shots_%20Susquehanna%20Smallie%20Fly%20Marathon.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/Hook%20Shots_%20Susquehanna%20Smallie%20Fly%20Marathon%20TN.png"
+      }
+    },
+    {
+      "id": "74",
+      "category": "Outdoors",
+      "title": "Hook Shots_ The Ozark Streamer Mission",
+      "description": "Want giant browns in the Ozark? Strip the big stuff.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/Hook%20Shots_%20The%20Ozark%20Streamer%20Mission.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/Hook%20Shots_%20The%20Ozark%20Streamer%20Mission%20TN.png"
+      }
+    },
+    {
+      "id": "75",
+      "category": "Outdoors",
+      "title": "How to Fit a Pack",
+      "description": "Follow these tips to fit a backpack to your frame for comfortable hiking and hauling.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/How%20to%20Fit%20a%20Pack.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/How%20to%20Fit%20a%20Pack%20TN.png"
+      }
+    },
+    {
+      "id": "76",
+      "category": "Outdoors",
+      "title": "How to Keep Your Rifle Barrel Cool",
+      "description": "David E. Petzal on how to keep your barrel cool and shoot tighter groups.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/How%20to%20Keep%20Your%20Rifle%20Barrel%20Cool.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/How%20to%20Keep%20Your%20Rifle%20Barrel%20Cool%20TN.png"
+      }
+    },
+    {
+      "id": "77",
+      "category": "Outdoors",
+      "title": "How to Make Your Own Inline Spinners",
+      "description": "Making your own spinners allows you to have custom baits for pocket change. Here's how to do it.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/How%20to%20Make%20Your%20Own%20Inline%20Spinners.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/How%20to%20Make%20Your%20Own%20Inline%20Spinners%20TN.png"
+      }
+    },
+    {
+      "id": "78",
+      "category": "Outdoors",
+      "title": "Mauser M18 Bolt-Action Rifle",
+      "description": "In recent years, Mauser has been making some high-end rifles that are unattainable for most shooters. That's why this M18 is so intriguing—it's a Mauser that folks will be able to actually get their hands on.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/Mauser%20M18%20Bolt-Action%20Rifle.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/Mauser%20M18%20Bolt-Action%20Rifle%20TN.png"
+      }
+    },
+    {
+      "id": "79",
+      "category": "Outdoors",
+      "title": "Ruger PC Carbine Takedown Rifle",
+      "description": "This new takedown from Ruger is an affordable, shootable, survival gun that includes plenty of thoughtful, useful touches.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/Ruger%20PC%20Carbine%20Takedown%20Rifle.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/Ruger%20PC%20Carbine%20Takedown%20Rifle%20TN.png"
+      }
+    },
+    {
+      "id": "80",
+      "category": "Outdoors",
+      "title": "Total Outdoorsman_ How to Rig a Cane Pole",
+      "description": "T. Edward Nickens on the best way to rig a cane pole.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/Total%20Outdoorsman_%20How%20to%20Rig%20a%20Cane%20Pole.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Outdoors/imgs/Total%20Outdoorsman_%20How%20to%20Rig%20a%20Cane%20Pole%20TN.png"
+      }
+    },
+    {
+      "id": "81",
+      "category": "Sport",
+      "title": "24 of the most famous rocket launches ever",
+      "description": "Space is cool. From the first-ever photo of Earth from beyond our atmosphere, to the Apollo missions, to the Falcon Heavy test launch, humanity has seen some incredible spacecraft launch toward the stars. Here are 24 famous rockets and space shuttles as they left Earth to explore the cosmos.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/24%20of%20the%20most%20famous%20rocket%20launches%20ever.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/24%20of%20the%20most%20famous%20rocket%20launches%20ever%20TN.png"
+      }
+    },
+    {
+      "id": "82",
+      "category": "Sport",
+      "title": "A Crazy Plan to Fight Hurricanes...By Making Clouds Brighter",
+      "description": "With all these major storms, have you ever wondered “Is there any way to slow them down?” Just imagine if Harvey, Irma, Jose, Katia, Lee, and Maria hadn’t been so powerful. A plan by climate physicists aims to tackle this problem...by making clouds brighter.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/A%20Crazy%20Plan%20to%20Fight%20Hurricanes...By%20Making%20Clouds%20Brighter.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/A%20Crazy%20Plan%20to%20Fight%20Hurricanes...By%20Making%20Clouds%20Brighter%20TN.png"
+      }
+    },
+    {
+      "id": "83",
+      "category": "Sport",
+      "title": "Caged pig. Forensic experiment in the ocean",
+      "description": "Courtesy of Ocean Networks Canada.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/Caged%20pig.%20Forensic%20experiment%20in%20the%20ocean.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/Caged%20pig.%20Forensic%20experiment%20in%20the%20ocean%20TN.png"
+      }
+    },
+    {
+      "id": "84",
+      "category": "Sport",
+      "title": "First look at the Apple iPhone X",
+      "description": "The world is eagerly awaiting the newest iPhone, but what features does it have in store? Popular Science got a first look to tell you what to look out for in Apple's flagship phone—the iPhone X.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/First%20look%20at%20the%20Apple%20iPhone%20X.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/First%20look%20at%20the%20Apple%20iPhone%20X%20TN.png"
+      }
+    },
+    {
+      "id": "85",
+      "category": "Sport",
+      "title": "Future First_ The Future of Food",
+      "description": "Isha Datar, CEO of New Harvest, reveals why we need a post-animal bio-economy.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/Future%20First_%20The%20Future%20of%20Food.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/Future%20First_%20The%20Future%20of%20Food%20TN.png"
+      }
+    },
+    {
+      "id": "86",
+      "category": "Sport",
+      "title": "How Long Is a Year__ The Relativity of Time",
+      "description": "As things age, each trip around the sun becomes an ever-shrinking percentage of its lifetime. Think about this: The average first grader is six years old when the school year starts. One year to them feels like one million years does to the Grand Canyon—for both, it’s one-sixth of their time on Earth. So how do you measure a year?",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/How%20Long%20Is%20a%20Year__%20The%20Relativity%20of%20Time.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/How%20Long%20Is%20a%20Year__%20The%20Relativity%20of%20Time%20TN.png"
+      }
+    },
+    {
+      "id": "87",
+      "category": "Sport",
+      "title": "How To Turn Any Gloves Into Touchscreen Gloves",
+      "description": "As the weather cools down, gloves can force you to choose between freezing your communications or freezing your fingers off. Come to think of it, why don’t most gloves work with touchscreen devices—and is there a way to get them to work?",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/How%20To%20Turn%20Any%20Gloves%20Into%20Touchscreen%20Gloves.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/How%20To%20Turn%20Any%20Gloves%20Into%20Touchscreen%20Gloves%20TN.png"
+      }
+    },
+    {
+      "id": "88",
+      "category": "Sport",
+      "title": "Method of Loci Experiment",
+      "description": "Scientists have shown you can improve your long-term memory with a strategy called the 'method of loci'",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/Method%20of%20Loci%20Experiment.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/Method%20of%20Loci%20Experiment%20TN.png"
+      }
+    },
+    {
+      "id": "89",
+      "category": "Sport",
+      "title": "Soft Robot Electric Fish",
+      "description": "Video footage credit Li et al",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/Soft%20Robot%20Electric%20Fish.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/Soft%20Robot%20Electric%20Fish%20TN.png"
+      }
+    },
+    {
+      "id": "90",
+      "category": "Sport",
+      "title": "Testing gluten-free foods with a gluten sensor",
+      "description": "The NIMA portable gluten sensor takes just three minutes to determine if food contains gluten in it.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/Testing%20gluten-free%20foods%20with%20a%20gluten%20sensor.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/Testing%20gluten-free%20foods%20with%20a%20gluten%20sensor%20TN.png"
+      }
+    },
+    {
+      "id": "91",
+      "category": "Sport",
+      "title": "The Assassination of Albert Einstein",
+      "description": "Why E=mc^2 became famous for all the wrong reasons, and how Albert Einstein actually isn't the father of the atomic bomb. Also: time travel and hypothetical assassinations.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/The%20Assassination%20of%20Albert%20Einstein.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/The%20Assassination%20of%20Albert%20Einstein%20TN.png"
+      }
+    },
+    {
+      "id": "92",
+      "category": "Sport",
+      "title": "The Science of Making Rice Noodles",
+      "description": "A little bit of science can make delicious dishes. Chef Jet Tila is teaching us the chemistry (and recipe) to make the rice noodles he uses in his world-famous drunken noodles.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/The%20Science%20of%20Making%20Rice%20Noodles.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/The%20Science%20of%20Making%20Rice%20Noodles%20TN.png"
+      }
+    },
+    {
+      "id": "93",
+      "category": "Sport",
+      "title": "The Science of Stain Removal",
+      "description": "Short how-to on stain removal; culprits are as followed: Breastmilk, Coffee, Ketchup, and Wine.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/The%20Science%20of%20Stain%20Removal.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/The%20Science%20of%20Stain%20Removal%20TN.png"
+      }
+    },
+    {
+      "id": "94",
+      "category": "Sport",
+      "title": "The Science of the World's Spiciest Chip",
+      "description": "We filmed ourselves eating the world's spiciest chip, cried for 45 minutes, and then made this video for you. With every bite into a Paqui's 'Carolina Reaper Madness' chip, more and more capsaicin interacts with the pain sensors on your tongue. In fact, it's so hot that it's exclusively sold in packages that contain only one chip. So what makes it so spicy?",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/The%20Science%20of%20the%20World's%20Spiciest%20Chip.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/The%20Science%20of%20the%20World's%20Spiciest%20Chip%20TN.png"
+      }
+    },
+    {
+      "id": "95",
+      "category": "Sport",
+      "title": "The Ten Second Marathon",
+      "description": "The concept of time is meaningless, because any two organisms will experience it differently. But in the chaos of all this relativity, sometimes it's nice to just have fun. So, Popular Science presents: The Ten Second Marathon: How far can your favorite animals and objects get in just ten seconds?",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/The%20Ten%20Second%20Marathon.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/The%20Ten%20Second%20Marathon%20TN.png"
+      }
+    },
+    {
+      "id": "96",
+      "category": "Sport",
+      "title": "The Unsung Heroes of LIGO",
+      "description": "On Monday, October 3rd, three people won the Nobel Prize for observing gravitational waves. But more than 1,000 scientists contributed to this discovery. These are the unsung heroes of LIGO.",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/The%20Unsung%20Heroes%20of%20LIGO.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/The%20Unsung%20Heroes%20of%20LIGO%20TN.png"
+      }
+    },
+    {
+      "id": "97",
+      "category": "Sport",
+      "title": "What the Rockets' Red Glare in the Star Spangled Banner are",
+      "description": "Have you ever wondered what the rockets in “rockets’ red glare and bombs bursting in air” actually are? What were rockets in 1814 - when the Star Spangled Banner was written?",
+      "content": {
+        "video": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/What%20the%20Rockets'%20Red%20Glare%20in%20the%20Star%20Spangled%20Banner%20are.mp4",
+        "thumbnail": "http://c5x8i7c7.ssl.hwcdn.net/hls/lifestyletv/Science/imgs/What%20the%20Rockets'%20Red%20Glare%20in%20the%20Star%20Spangled%20Banner%20are%20TN.png"
+      }
+    }
+  ]
+}
